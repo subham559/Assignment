@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Dropdown Menu</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="menu">
+      <li ><a href="#">Home</a></li>
+      <li ><a href="#">About</a></li>
+      <li class="dropdown">
+        <a href="#" >Work ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Development</a></li>
+          <li class="sub-dropdown">
+            <a href="#">Photography ▸</a>
+            <ul class="sub-menu">
+              <li><a href="#">Nature</a></li>
+              <li><a href="#">People</a></li>
+              <li><a href="#">Pets</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Writing</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
